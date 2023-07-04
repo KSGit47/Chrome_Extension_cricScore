@@ -1,0 +1,11 @@
+{"name" : "My Chrome Extension",
+        "version" : "1.0",
+        "description" : "Live Cric Update", 
+        "manifest_version" : 1,
+        "author" : "Kushagra Srivastava", 
+        "action":
+        {
+            "default_popup" : "index.html",
+            "default_title" : "Cric_Update"
+        }
+    }
