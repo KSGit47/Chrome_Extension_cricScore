@@ -8,7 +8,7 @@ async function getMatchdata(){
             if(!matchList) return [];
             const relevant = matchList.map(match => `${match.name}, ${match.status}`);
             document.getElementById("cric").innerHTML=relevant.map(match => `<li> ${match}</li>`).join('');
-            return relevant;
+            return re;
         }
     });
 }
